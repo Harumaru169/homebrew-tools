@@ -1,6 +1,6 @@
 cask "supereasy" do
   version "0.1.0"
-  sha256 "e2fc9a69fc5ee6df485c47a521f7144113921c4d4f9fc77853767ee8235427f4"
+  sha256 "5b12fd5d2828a5ddce8eaecfff562645a82e4378b7453fe912a137688f0c4bb4"
 
   url "https://github.com/Harumaru169/SuperEasy/releases/download/0.1.0/SuperEasy-App.zip"
   
