@@ -12,9 +12,9 @@ cask "supereasy" do
   
   postflight do
 
-    # system_command "/usr/bin/xattr",
-    #                args: ["-rd", "com.apple.quarantine", "#{appdir}/SuperEasy.app"],
-    #                sudo: false
+    system_command "/usr/bin/xattr",
+                   args: ["-rd", "com.apple.quarantine", "#{appdir}/SuperEasy.app"],
+                   sudo: false
     
     # 2. アドホック署名を上書き（Extensionを確実にロードさせるため）
     # system_command "/usr/bin/codesign",
