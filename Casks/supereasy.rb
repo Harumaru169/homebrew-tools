@@ -1,8 +1,8 @@
 cask "supereasy" do
-  version "0.1.0"
-  sha256 "5b12fd5d2828a5ddce8eaecfff562645a82e4378b7453fe912a137688f0c4bb4"
+  version "0.1.2"
+  sha256 "5cb149f1c9f03147716f2c3b7b2e124465e5c1f123f758613d6f2928cd671a61"
 
-  url "https://github.com/Harumaru169/SuperEasy/releases/download/0.1.0/SuperEasy-App.zip"
+  url "https://github.com/Harumaru169/SuperEasy/releases/download/0.1.2/SuperEasy-App.zip"
   
   name "SuperEasy"
   desc "Just a sample project"
